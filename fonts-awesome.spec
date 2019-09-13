@@ -23,6 +23,7 @@ BuildRequires:	mkfontdir
 Iconic font set
 
 %package -n fonts-otf-awesome
+Group:		System/Fonts/Open type
 Summary:	Iconic font set
 
 %description -n fonts-otf-awesome
