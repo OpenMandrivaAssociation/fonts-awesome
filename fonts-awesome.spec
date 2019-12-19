@@ -7,13 +7,12 @@
 
 Summary:	Iconic font set
 Name:		fonts-ttf-awesome
-Version:	5.10.2
+Version:	5.12.0
 Release:	1
 License:	OFL
 Group:		System/Fonts/True type
 URL:		https://github.com/FortAwesome/Font-Awesome/
-Source0:	https://github.com/FortAwesome/Font-Awesome/%{version}.tar.gz
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Source0:	https://github.com/FortAwesome/Font-Awesome/archive/%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	fontconfig
 BuildRequires:	mkfontscale
