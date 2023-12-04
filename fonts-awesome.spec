@@ -7,7 +7,7 @@
 
 Summary:	Iconic font set
 Name:		fonts-ttf-awesome
-Version:	6.2.1
+Version:	6.5.1
 Release:	1
 License:	OFL
 Group:		System/Fonts/True type
