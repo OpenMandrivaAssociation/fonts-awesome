@@ -8,7 +8,7 @@
 Summary:	Iconic font set
 Name:		fonts-ttf-awesome
 Version:	6.7.1
-Release:	1
+Release:	2
 License:	OFL
 Group:		System/Fonts/True type
 URL:		https://github.com/FortAwesome/Font-Awesome/
@@ -42,14 +42,14 @@ install -dm 0755 %{buildroot}/%{ttffontdir}/
 install -m 644 webfonts/*.ttf %{buildroot}%{_xfontdir}/TTF/awesome
 mkfontscale %{buildroot}%{ttffontdir}/
 mkfontdir %{buildroot}%{ttffontdir}/
-ln -s ../../..%{buildroot}%{ttffontdir} %{buildroot}%{fontconfdir}/ttf-%{fontname}:pri=50
+ln -s %{ttffontdir} %{buildroot}%{fontconfdir}/ttf-%{fontname}:pri=50
 
 # OTF fonts
 install -dm 0755 %{buildroot}/%{otffontdir}/
 install -m 644 otfs/*.otf %{buildroot}%{_xfontdir}/OTF/awesome
 mkfontscale %{buildroot}%{otffontdir}/
 mkfontdir %{buildroot}%{otffontdir}/
-ln -s ../../..%{buildroot}%{otffontdir} %{buildroot}%{fontconfdir}/otf-%{fontname}:pri=50
+ln -s %{otffontdir} %{buildroot}%{fontconfdir}/otf-%{fontname}:pri=50
 
 
 %files
